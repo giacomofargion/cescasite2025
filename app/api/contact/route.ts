@@ -14,8 +14,8 @@ export async function POST(request: NextRequest) {
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: "Contact Form <noreply@yourdomain.com>", // Replace with your domain
-      to: ["giacomo.fargion@yahoo.com"], // Replace with Francesca's email
+      from: "hello@francescafargion.co.uk",
+      to: ["francescafargion@gmail.com"], // Replace with Francesca's email
       subject: `New Contact Form: ${subject}`,
       html: `
         <h2>New Contact Form Submission</h2>
