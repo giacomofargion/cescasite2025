@@ -473,7 +473,7 @@ export const sectionsData: Record<string, Section> = {
         year: "2025",
         description:
           "This piece was written for a recording project with Birmingham Record Company. It was originally written for viola, cello and piano and my voice. I worked with various song lyrics of the Sex Pistols, putting them into third person and usually negating them. The instruments colour the vague, noodling vocal melody by simply following the melody by ear, without seeing the pitches notated. The score consists of lyrics without any pitches above, and some simple instructions as to how they should follow the line. The idea is that the instruments are searching for the melody but they are stuttering, stumbling, sometimes playing wrong notes as they attempt to do so. The piece was also arranged for clarinet, synth and piano for Plus-Minus ensemble.  ",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/othersongs.jpg",
         url: "#",
       },
       {
@@ -481,31 +481,31 @@ export const sectionsData: Record<string, Section> = {
         year: "2024",
         description:
           "Dear Luna is a song cycle with text loosely centred around Goethe's poem An den mond (To the Moon). The songs are naively Romantic, retaining themes of the original - with close connection to the natural world, tragedy and love - but spoken in a more direct, simple tone. I wanted each song to retain a kind of ambiguity, as if you're peering into a window and witnessing fragments of something without knowing all the information.",
-        image: "/placeholder.svg?height=200&width=300",
-        url: "#",
+        image: "/images/luna.jpg",
+        url: "https://www.youtube.com/watch?v=eWrXjjU-xnA&ab_channel=BrittenPearsArts",
       },
       {
         title: "Louise, gently falling",
         year: "2023",
         description:
           "Louise, gently falling is a piece for myself and Plus-Minus ensemble including violin, cello, clarinet and synthesizer. This piece was commissioned as part of the Cyborg Soloists project, in which each composer collaborated with an industry technology partner. The piece uses the first few pages of Robert Schumann's Fantasie in C as harmonic and pitch material. I shift through the harmony of the Fantasie, using each of these as different tonal palettes for the sections of Louise, gently falling. The sections are stagnant and looping in nature. The lyric content is taken freely from a book of Lieder texts in translation, compiled by Richard Stokes in the edited collection The Book of Lieder (Bostridge and Stokes). ",
-        image: "/placeholder.svg?height=200&width=300",
-        url: "#",
+        image: "/images/louise.jpg",
+        url: "https://www.youtube.com/watch?v=ewibLOIy2M0&list=RDewibLOIy2M0&start_radio=1&ab_channel=Plus-MinusEnsemble",
       },
       {
         title: "8 Songs",
         year: "2023",
         description:
-          "8 songs joyfully observe everyday scenarios, using dialogue taken from various Katherine Mansfield short stories, and my own text messages. The songs were first written for two pianos playing parts in different tempi, out of sync with each other, ignoring each other as if playing in rooms of their own. They were then arranged for Plus-Minus ensemble retaining this quality of separateness in the parts. ",
-        image: "/placeholder.svg?height=200&width=300",
-        url: "#",
+          "8 songs joyfully observe everyday scenarios, using dialogue taken from various Katherine Mansfield short stories, and my own text messages. The songs were first written for two pianos playing parts in different tempi, out of sync with each other, ignoring each other as if playing in rooms of their own. They were then arranged for Plus-Minus ensemble retaining this quality of separateness in the parts.",
+        image: "/images/8-songs.jpg",
+        url: "",
       },
       {
         title: "The Singing Agony Aunt",
         year: "2022",
         description:
           "The Singing Agony Aunt is a piece I created in May 2022 during a mini-residency at Volcano Theatre in Swansea as part of their 'Solo Duets for the Future' series. It is a disjointed, lively half hour, giving insights into other people's common or not so common troubles, however big or small, petty or profound. Throughout the piece I respond (musically) to 'problems' all sourced from real advice columns (both current and historical) and from audience members who are also invited to hand in their own problems at the beginning of the performance. I perform the 'character' of the agony aunt herself, in addition to the worried question-askers.",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/agony-image.png",
         url: "#",
       },
       {
@@ -513,7 +513,7 @@ export const sectionsData: Record<string, Section> = {
         year: "2021",
         description:
           "Diary songs was originally commissioned by Seán Clancy and Andy Ingamells to be inserted as a response into their 6 hour live stream, 'This is About (an Intervention). I sing un-edited extracts from a diary I kept when I was 12 years old accompanied by chords from Beatles songs (as I was obsessed with them at the time). Through anecdotes, questions and reflections, the piece fondly shines a light upon the boundary between childhood and the teenage years, while playfully exploring the relationship and distance between the past and present self. ",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/diary-image.png",
         url: "#",
       },
       {
@@ -522,7 +522,7 @@ export const sectionsData: Record<string, Section> = {
         description:
           "'Circe songs' is a set of spell songs inspired by the Greek Goddess, witch and sorceress, Circe. The album explores ancient magic and ritual practices, many of the songs using text from spells found in the 'Greek Magical Papyri'. Made up of remote ensemble and choir recordings, with added electronic sounds, much of the melodic content is sourced from folk melodies of the 'Mondine' (Italian rice field workers).",
         image: "/images/circe.jpg",
-        url: "https://your-external-link.com",
+        url: "https://francescafargion.bandcamp.com/album/circe-songs",
       },
       {
         title: "3 Romantic songs ",
@@ -530,7 +530,7 @@ export const sectionsData: Record<string, Section> = {
         description:
           "A mini-album for bass, guitar, drums and vocals, based on Robert Schumann's Frauen-Liebe und Leben. I work with up-beats and in-breaths and rests, removing the main substance of the songs, leaving only negative space, fragments and remains.",
         image: "/images/3romantic.jpg",
-        url: "#",
+        url: "https://francescafargion.bandcamp.com/album/3-romantic-songs",
       },
     ],
   },
