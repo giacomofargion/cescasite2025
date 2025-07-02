@@ -136,7 +136,7 @@ export default function ContactForm() {
           required
           rows={6}
           className="border-black/20 focus:border-black focus:ring-black resize-none"
-          placeholder="Tell me about your project, timeline, and any specific requirements..."
+          placeholder="..."
         />
       </div>
 
@@ -169,9 +169,9 @@ export default function ContactForm() {
         )}
       </Button>
 
-      <p className="text-xs text-black/60 text-center">
+      {/* <p className="text-xs text-black/60 text-center">
         Thanks for your message. I'll get back to you as soon as possible.
-      </p>
+      </p> */}
     </form>
   )
 }

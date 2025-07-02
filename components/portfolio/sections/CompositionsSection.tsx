@@ -22,7 +22,7 @@ export default function CompositionsSection({ items }: CompositionsSectionProps)
             <img
               src={item.image || "/placeholder.svg"}
               alt={item.title}
-              className="w-32 h-32 md:w-40 md:h-32 lg:w-48 lg:h-36 object-cover shadow-sm"
+              className="w-44 h-44 md:w-56 md:h-44 lg:w-64 lg:h-52 object-cover shadow-sm"
             />
           </motion.div>
           <div className="flex-1">
