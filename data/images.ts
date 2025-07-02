@@ -22,7 +22,7 @@ export const carouselImages: CarouselImage[] = [
     credit: "Bad Dante Bad English Bad Opera, photo by Arne Hauge",
   },
   {
-    src: "/images/babyfargi.jpg",
+    src: "/images/babyfargi.jpeg",
     credit: "The Fargions",
   },
   {
@@ -34,7 +34,7 @@ export const carouselImages: CarouselImage[] = [
     credit: "The Fargions, photo by Kebra McIntosh",
   },
   {
-    src: "/images/farg-gc.jpg",
+    src: "/images/farg-gc.jpeg",
     credit: "The Fargions at Good Company, AMP studios Peckham",
   },
   {
@@ -42,7 +42,7 @@ export const carouselImages: CarouselImage[] = [
     credit: "Music for Lectures band with Wendy Houston",
   },
   {
-    src: "/images/iklektik-same.jpg",
+    src: "/images/iklektik-sam.jpg",
     credit: "The Fargions at Iklektik, photo by Sam Walton",
   },
   {

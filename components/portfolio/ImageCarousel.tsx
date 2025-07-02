@@ -12,6 +12,14 @@ interface ImageCarouselProps {
 export default function ImageCarousel({ isActive }: ImageCarouselProps) {
   const [currentImage, setCurrentImage] = useState(0)
 
+  // Preload all carousel images
+  useEffect(() => {
+    carouselImages.forEach((img) => {
+      const image = new window.Image()
+      image.src = img.src
+    })
+  }, [])
+
   // Auto-advance carousel
   useEffect(() => {
     if (!isActive) {
@@ -26,7 +34,7 @@ export default function ImageCarousel({ isActive }: ImageCarouselProps) {
   if (isActive) return null
 
   return (
-    <motion.div key="carousel" variants={rightColumnVariants} initial="initial" animate="animate" exit="exit">
+    <motion.div key="carousel" variants={rightColumnVariants as any} initial="initial" animate="animate" exit="exit">
       <div className="aspect-[4/3] overflow-hidden bg-gray-200 shadow-lg relative">
         <AnimatePresence mode="wait">
           <motion.div
