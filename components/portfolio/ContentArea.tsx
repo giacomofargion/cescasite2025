@@ -35,7 +35,7 @@ export default function ContentArea({ activeSection }: ContentAreaProps) {
   return (
     <motion.div
       key={`content-${activeSection}`}
-      variants={rightColumnVariants}
+      variants={rightColumnVariants as any}
       initial="initial"
       animate="animate"
       exit="exit"
@@ -51,11 +51,11 @@ export default function ContentArea({ activeSection }: ContentAreaProps) {
               damping: 25,
               delay: 0.1,
             }}
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-black mb-6 sm:mb-8"
+            className="text-2xl font-light text-black mb-6 sm:mb-8"
           >
-            {section.title}
+            {/* {section.title} */}
           </motion.h3>
-          <motion.div variants={contentVariants} initial="initial" animate="animate" exit="exit">
+          <motion.div variants={contentVariants as any} initial="initial" animate="animate" exit="exit">
             {renderSectionContent()}
           </motion.div>
         </div>

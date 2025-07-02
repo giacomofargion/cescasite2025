@@ -34,7 +34,7 @@ export default function NavigationSidebar({ activeSection, onSectionClick }: Nav
           <motion.button
             layout
             onClick={() => onSectionClick(key)}
-            className="flex items-start justify-between w-full text-left group"
+            className="flex items-center justify-between w-full text-left group min-w-0"
             transition={{
               layout: {
                 type: "spring",
@@ -44,7 +44,7 @@ export default function NavigationSidebar({ activeSection, onSectionClick }: Nav
               },
             }}
           >
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-light text-black group-hover:opacity-70 transition-all duration-300 ease-out flex-1 pr-4">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light text-black group-hover:opacity-70 transition-all duration-300 ease-out flex-1 pr-4 min-w-0 break-words">
               {section.title}
             </h2>
             <motion.div

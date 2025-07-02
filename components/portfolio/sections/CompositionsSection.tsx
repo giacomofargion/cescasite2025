@@ -11,9 +11,9 @@ interface CompositionsSectionProps {
 
 export default function CompositionsSection({ items }: CompositionsSectionProps) {
   return (
-    <motion.div variants={contentVariants} className="space-y-10 md:space-y-8">
+    <motion.div variants={contentVariants as any} className="space-y-24 md:space-y-20">
       {items.map((item, index) => (
-        <motion.div key={index} variants={compositionItemVariants} className="flex flex-col md:flex-row gap-4 md:gap-6">
+        <motion.div key={index} variants={compositionItemVariants as any} className="flex flex-col gap-4 md:gap-6 w-full">
           <motion.div
             className="flex-shrink-0"
             whileHover={{ scale: 1.02 }}
